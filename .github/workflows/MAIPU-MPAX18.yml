@@ -58,7 +58,6 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_HID/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SERIAL/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_AUDIO/d' .config
-
         sed -i '/CONFIG_FIRMWARE_INCLUDE_XFRM/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_QOS/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_IMQ/d' .config
